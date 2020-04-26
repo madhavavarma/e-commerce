@@ -36,7 +36,7 @@ Task("Build")
 Task("CopyFiles")
     .Does(() =>
     {
-        CopyDirectory(@"../dist/Links/", @"C:\inetpub\wwwroot\eCommerce");
+        CopyDirectory(@"../dist/e-commerce/", @"C:\inetpub\wwwroot\eCommerce");
     });
 
 
