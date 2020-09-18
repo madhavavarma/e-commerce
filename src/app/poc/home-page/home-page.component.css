@@ -2,10 +2,6 @@
     display: grid;
 }
 
-.logo {
-    text-shadow: 2px 2px 4px #000000;
-}
-
 header {
     height: 60px;
     padding: 0 35px;

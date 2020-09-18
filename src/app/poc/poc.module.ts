@@ -4,13 +4,16 @@ import { CommonModule } from '@angular/common';
 import { PocRoutingModule } from './poc-routing.module';
 import { HomePageComponent } from './home-page/home-page.component';
 import { CardComponent } from './card/card.component';
+import { GridComponent } from './grid/grid.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 
 @NgModule({
-  declarations: [HomePageComponent, CardComponent],
+  declarations: [HomePageComponent, CardComponent, GridComponent],
   imports: [
     CommonModule,
-    PocRoutingModule
+    PocRoutingModule,
+    DragDropModule
   ]
 })
 export class PocModule { }
